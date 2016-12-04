@@ -1,0 +1,5 @@
+descargas
+descargas/*
+bower_components
+*/**/bower_components
+.DS_Store
