@@ -1,6 +1,6 @@
 <div class="site-info">
 	<svg class="icon  icon--logo-bn">
-		<use class="" xlink:href="#logo-bn" />
+		<use class="gris" xlink:href="#logo-bn" />
 	</svg>
 	<p>Grupo Forés.</p>
 	<span class="sep"> | </span>

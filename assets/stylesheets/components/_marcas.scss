@@ -1,14 +1,25 @@
 .marcas {
   text-align: center;
   min-height: 150px;
+
   &__list {
     display: flex;
     justify-content: center;
     list-style: none;
     padding-left: 0;
     margin-left: 0;
+
     &__item {
-      padding-right: $spacing_unit;
+      margin-right: $spacing_unit;
+      width: 150px;
+      svg {
+        fill: $color__black-alpha;
+        max-width: 150px;
+        padding: 10px 20px;
+        &:hover {
+          border-radius: 10px;
+        }
+      }
       &:last-child {
         padding-right: 0;
       }

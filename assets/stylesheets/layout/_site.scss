@@ -22,10 +22,16 @@
 
     &-title {
       margin-top: 0;
+      display: none;
+    }
+    
+    &-logo {
+
     }
 
     &-description {
       padding-left: $spacing_unit;
+      display: none;
     }
 
   &-footer {

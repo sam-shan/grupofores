@@ -1,0 +1,23 @@
+.languages {
+  list-style: none;
+  display: flex;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  width: 100%;
+
+  &__item {
+
+    margin-right: $spacing_unit/2;
+
+    &--esp {}
+    &--ing {}
+    &--por {}
+    &--ita {}
+    &--fra {}
+  }
+  a {
+    text-decoration: none;
+    color: $color__black-alpha;
+  }
+}

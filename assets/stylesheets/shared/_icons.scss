@@ -1,18 +1,52 @@
+// use.logobn {
+// 	fill: blue;
+// }
+
+// letras logo bn
+path.fores-bn {
+	fill: $color__black;
+	stroke: none;
+}
+// circulo arkit
+path.arkit {
+	fill: none;
+	stroke: $color__black-alpha;
+}
+// letras color
+path.casita {
+	// fill: red;
+	// stroke: $color__black;
+}
+// path.brico {
+// 	fill: $color__white;
+// 	stroke: none;
+// }
+
 .icon {
-	height: 100px;
+	height: 50px;
 
 	&--logo-bn {
-		height: 30px;
+		stroke: $color__black-alpha;
+		stroke-width: 1px;
+		fill: none;
 	}
 
 	&--habitdesign {
-		max-width: 150px;
+		&:hover {
+			fill: $color__black;
+			background-color: #E1D1AD;
+		}
 	}
 	&--bricohabitat {
-		max-width: 150px;
+		&:hover {
+			background-color: #9C2E83;
+			fill: #A9D051;
+		}
 	}
 	&--arkitmobel {
-		max-width: 150px;
+		&:hover {
+			fill: #B60050;
+		}
 	}
 
 	&--facebook,

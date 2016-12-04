@@ -36,20 +36,80 @@
 	"\/assets\/icons\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/assets\/icons\/logo.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/icons\/logo_arkitmobel-bn.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/icons\/logo_arkitmobel-bn.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 1
+		},
+	"\/assets\/icons\/logo_arkitmobel.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/assets\/icons\/logo_arkitmobel.svg",
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
 	"\/assets\/icons\/logo_bn.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/assets\/icons\/logo_bn.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/icons\/logo_bricohabitat-bn.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/assets\/icons\/logo_bricohabitat-bn.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/icons\/logo_bricohabitat.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/assets\/icons\/logo_bricohabitat.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/icons\/logo_habitdesign-bn.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/assets\/icons\/logo_habitdesign-bn.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/icons\/logo_habitdesign.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/assets\/icons\/logo_habitdesign.svg",
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -167,6 +227,19 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/assets\/stylesheets\/components\/_languages.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/stylesheets\/components\/_languages.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/assets\/stylesheets\/components\/_marcas.scss": {
 		"aP": 0,
@@ -2298,6 +2371,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/components\/header\/site-branding.php",
+		"oF": 0
+		},
+	"\/components\/header\/site-languages.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/components\/header\/site-languages.php",
 		"oF": 0
 		},
 	"\/components\/navigation\/navigation-featured.php": {
