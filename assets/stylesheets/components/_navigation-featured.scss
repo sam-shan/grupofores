@@ -1,0 +1,19 @@
+.featured-navigation {
+	width: 100%;
+	min-height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+	background-color: white;
+
+	&__item {
+		margin-right: $spacing_unit;
+	}
+	a {
+		text-decoration: none;
+	}
+}

@@ -1,0 +1,39 @@
+.site {
+
+  background-color: #f3f3f3;
+  min-height: 100vh;
+
+  &-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: $spacing_unit;
+  }
+
+  &-main {}
+
+  &-content {}
+
+  &-branding {
+    display: flex;
+    align-items: baseline;
+  }
+
+    &-title {
+      margin-top: 0;
+    }
+
+    &-description {
+      padding-left: $spacing_unit;
+    }
+
+  &-footer {
+    padding: $spacing_unit;
+  }
+
+  &-info {
+    display: flex;
+    align-items: baseline;
+  }
+}

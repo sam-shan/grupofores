@@ -1,0 +1,22 @@
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  // text-align: center;
+  padding-left: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+
+  &__item {
+    flex: 0 25px;
+    max-width: 50px;
+    list-style: none;
+    padding-right: $spacing_unit;
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+}

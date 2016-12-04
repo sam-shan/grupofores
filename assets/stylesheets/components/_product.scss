@@ -1,0 +1,19 @@
+.product {
+  &--list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    &__item {
+      padding: $spacing_unit;
+
+      a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+      }
+    }
+  }
+}

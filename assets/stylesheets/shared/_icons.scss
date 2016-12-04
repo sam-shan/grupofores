@@ -1,0 +1,42 @@
+.icon {
+	height: 100px;
+
+	&--logo-bn {
+		height: 30px;
+	}
+
+	&--habitdesign {
+		max-width: 150px;
+	}
+	&--bricohabitat {
+		max-width: 150px;
+	}
+	&--arkitmobel {
+		max-width: 150px;
+	}
+
+	&--facebook,
+	&--vimeo {
+		height: 15px;
+	}
+
+	&--actualidad {}
+	&--novedades {}
+	&--grupo {}
+	&--servicios {}
+	&--contacto {}
+
+	&--actualidad,
+	&--novedades,
+	&--grupo,
+	&--servicios,
+	&--contacto {
+		background-color: blue;
+		width: 75px;
+	}
+
+	&__item {
+		height: 20px;
+		width: 20px;
+	}
+}
