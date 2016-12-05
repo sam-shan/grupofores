@@ -2387,6 +2387,24 @@
 		"oAP": "\/components\/features\/hero-image\/content-hero.php",
 		"oF": 0
 		},
+	"\/components\/features\/portfolio\/content-portfolio-single.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/components\/features\/portfolio\/content-portfolio-single.php",
+		"oF": 0
+		},
+	"\/components\/features\/portfolio\/content-portfolio.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/components\/features\/portfolio\/content-portfolio.php",
+		"oF": 0
+		},
+	"\/components\/features\/portfolio\/portfolio.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/components\/features\/portfolio\/portfolio.php",
+		"oF": 0
+		},
 	"\/components\/features\/testimonials\/content-testimonials.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2865,6 +2883,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sidebar.php",
+		"oF": 0
+		},
+	"\/single-jetpack-portfolio.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/single-jetpack-portfolio.php",
 		"oF": 0
 		},
 	"\/single.php": {

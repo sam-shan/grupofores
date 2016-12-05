@@ -27,6 +27,9 @@ function todh_jetpack_setup() {
 	// Add theme support for Social Menus
 	add_theme_support( 'jetpack-social-menu' );
 
+	// Add theme support for JetPack Portfolio
+	//add_theme_support( 'jetpack-portfolio' );
+
 	// Add theme support for testimonials
 	add_theme_support( 'jetpack-testimonial' );
 }
