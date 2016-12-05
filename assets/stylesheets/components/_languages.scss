@@ -1,23 +1,28 @@
 .languages {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   margin-left: 0;
   margin-bottom: 0;
   padding-left: 0;
   width: 100%;
 
   &__item {
-
     margin-right: $spacing_unit/2;
-
+    font-size: 11px;
     &--esp {}
     &--ing {}
     &--por {}
     &--ita {}
     &--fra {}
   }
+
   a {
     text-decoration: none;
-    color: $color__black-alpha;
+    color: $color__black-alpha2;
+    &:hover {
+      color: $color__black;
+    }
   }
 }

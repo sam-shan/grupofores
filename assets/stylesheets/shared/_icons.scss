@@ -4,7 +4,7 @@
 
 // letras logo bn
 path.fores-bn {
-	fill: $color__black;
+	fill: $color__black-alpha;
 	stroke: none;
 }
 // circulo arkit
@@ -26,6 +26,8 @@ path.casita {
 	height: 50px;
 
 	&--logo-bn {
+		margin-right: $spacing_unit;
+		width: 80px;
 		stroke: $color__black-alpha;
 		stroke-width: 1px;
 		fill: none;
@@ -54,6 +56,16 @@ path.casita {
 		height: 15px;
 	}
 
+	// Featured icons home
+	&--featured {
+		width: 100px;
+		height: 100px;
+		fill: $color__black-alpha;
+		stroke-linejoin: round;
+		&:hover {
+			fill: $color__black;
+		}
+	}
 	&--actualidad {}
 	&--novedades {}
 	&--grupo {}
@@ -65,8 +77,11 @@ path.casita {
 	&--grupo,
 	&--servicios,
 	&--contacto {
-		background-color: blue;
-		width: 75px;
+		// background-color: blue;
+
+		svg {
+
+		}
 	}
 
 	&__item {

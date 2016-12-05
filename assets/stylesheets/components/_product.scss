@@ -5,8 +5,14 @@
     list-style: none;
     margin-left: 0;
     padding-left: 0;
+
     &__item {
+      flex: 1 200px;
       padding: $spacing_unit;
+      border-color: $color__gray;
+      border-width: 1px;
+      border-top-style: solid;
+      border-right-style: solid;
 
       a {
         display: flex;

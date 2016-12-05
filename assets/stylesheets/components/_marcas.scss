@@ -1,9 +1,16 @@
 .marcas {
+  max-width: 700px;
   text-align: center;
+  color: $color__black-alpha;
+  margin-bottom: $spacing_unit*2;
+  margin-left: auto;
+  margin-right: auto;
   min-height: 150px;
+  border: 10px solid $color__black-alpha2;
 
   &__list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     list-style: none;
     padding-left: 0;
@@ -12,6 +19,7 @@
     &__item {
       margin-right: $spacing_unit;
       width: 150px;
+      
       svg {
         fill: $color__black-alpha;
         max-width: 150px;

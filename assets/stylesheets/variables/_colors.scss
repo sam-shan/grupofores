@@ -1,8 +1,10 @@
 
 $color__black: black;
 $color__black-alpha: rgba($color__black,.5);
+$color__black-alpha2: rgba($color__black-alpha,.08);
 $color__white: white;
 $color__white-alpha: rgba($color__white,.5);
+$color__white-alpha2: rgba($color__white-alpha,.5);
 $color__gray: #ccc;
 $color__darkgray: #666;
 
@@ -12,6 +14,10 @@ $color__background-hr: #ccc;
 $color__background-button: #e6e6e6;
 $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
+
+// Brand
+$color__brand1: #AFCB43;
+$color__brand2: #FFCB03;
 
 $color__text-screen: $color__darkgray;
 $color__text-input: $color__darkgray;

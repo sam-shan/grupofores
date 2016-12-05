@@ -46,20 +46,19 @@ function todh_setup() {
 	add_image_size( 'todh-hero', 1280, 1000, true );
 	add_image_size( 'todh-thumbnail-avatar', 100, 100, true );
 	add_image_size('fotogrande', 365, 365);
-    add_image_size('slider', 940, 250, true);
-    add_image_size('thumbsportada', 210, 130);
-    add_image_size('thumbspie', 100, 135, true);
-    add_image_size('portadaproductos', 818, 200, true);
-    add_image_size('thumbsproductos', 172, 127);
-    add_image_size('productospeque', 70, 80);
-
-    add_image_size('thumbsgaleria', 146, 185, true);
-    add_image_size('grid_6', 220, 125);
-    add_image_size('carruselsubsidiary', 460, 125, true);
-  	add_image_size('carruselsidebar', 122, 133, true);
-  	add_image_size('ambientes', 450, 250, true);
-  	add_image_size('th-actualidad', 279, 155);
-    add_image_size('galeria', 50, 50);
+  add_image_size('slider', 940, 250, true);
+  add_image_size('thumbsportada', 210, 130);
+  add_image_size('thumbspie', 100, 135, true);
+  add_image_size('portadaproductos', 818, 200, true);
+  add_image_size('thumbsproductos', 172, 127);
+  add_image_size('productospeque', 70, 80);
+  add_image_size('thumbsgaleria', 146, 185, true);
+  add_image_size('grid_6', 220, 125);
+  add_image_size('carruselsubsidiary', 460, 125, true);
+	add_image_size('carruselsidebar', 122, 133, true);
+	add_image_size('ambientes', 450, 250, true);
+	add_image_size('th-actualidad', 279, 155);
+  add_image_size('galeria', 50, 50);
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(

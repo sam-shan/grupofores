@@ -2,7 +2,6 @@
 	clear: both;
 	display: block;
 	float: left;
-	// width: 100%;
 
 	ul {
 		display: none;
@@ -12,6 +11,7 @@
 
 		ul {
 			background-color: $color__white;
+			padding: $spacing_unit;
 			float: left;
 			position: absolute;
 			top: 1.5em;
@@ -68,7 +68,8 @@
 	.current-menu-item > a,
 	.current_page_ancestor > a,
 	.current-menu-ancestor > a {
-		background-color: red;
+		color: $color__black;
+		background-color: rgba($color__brand1,.3);
 	}
 }
 

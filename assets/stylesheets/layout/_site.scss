@@ -1,6 +1,4 @@
 .site {
-
-  background-color: #f3f3f3;
   min-height: 100vh;
 
   &-header {
@@ -24,9 +22,13 @@
       margin-top: 0;
       display: none;
     }
-    
-    &-logo {
 
+    &-logo {
+      width: 200px;
+
+      img {
+        width: 100%;
+      }
     }
 
     &-description {
@@ -35,11 +37,25 @@
     }
 
   &-footer {
+    color: $color__black-alpha;
     padding: $spacing_unit;
+    background-color: $color__black-alpha2;
   }
 
   &-info {
     display: flex;
-    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .sep {
+      margin-left: $spacing_unit/3;
+      margin-right: $spacing_unit/3;
+    }
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+    }
   }
 }

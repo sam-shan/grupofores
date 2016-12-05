@@ -10,13 +10,6 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php if ( '' != get_the_post_thumbnail() ) : ?>
-		<div class="post-thumbnail">
-			<a href="<?php the_permalink(); ?>">
-				<?php the_post_thumbnail( 'todh-featured-image' ); ?>
-			</a>
-		</div>
-	<?php endif; ?>
 
 	<header class="entry-header">
 		<?php
@@ -25,12 +18,32 @@
 			} else {
 				the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 			}
-
 		if ( 'post' === get_post_type() ) : ?>
 		<?php get_template_part( 'components/post/content', 'meta' ); ?>
+
+		<? elseif ( 'mueble' === get_post_type() ) : { ?>
 		<?php
-		endif; ?>
+			if (qtrans_getLanguage() == 'en') {the_field('titulillo_pdf_ingles');}
+			elseif (qtrans_getLanguage() == 'es') {the_field('titulillo_pdf');}
+			else { echo 'es'; }
+		?>
+		<?php //get_template_part('sidebar-mueble'); ?>
+		<?php } ?>
+
+		<?php endif; ?>
 	</header>
+
+	<?php if ( 'colecciones' === get_post_type() ) : { ?>
+		<?php if ( '' != get_the_post_thumbnail() ) : ?>
+			<a href="<?php the_permalink(); ?>">
+				<figure>
+					<?php the_post_thumbnail( 'ambientes' ); ?>
+					<?php	the_title( '<figcaption class="entry-title">', '</figcaption>' ); ?>
+				</figure>
+			</a>
+		<?php endif; ?>
+	<?php } endif; ?>
+	
 	<div class="entry-content">
 		<?php
 			the_content( sprintf(

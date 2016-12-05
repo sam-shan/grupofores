@@ -33,6 +33,56 @@
 		"oAP": "\/archive.php",
 		"oF": 0
 		},
+	"\/assets\/icons\/icon-actualidad.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/icons\/icon-actualidad.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/icons\/icon-contacto.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/icons\/icon-contacto.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/icons\/icon-grupo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/icons\/icon-grupo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/icons\/icon-novedades.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/icons\/icon-novedades.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/icons\/icon-servicios.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/icons\/icon-servicios.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/icons\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2403,6 +2453,12 @@
 		"oAP": "\/components\/novedades\/content-lasnovedades.php",
 		"oF": 0
 		},
+	"\/components\/page\/content-contact.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/components\/page\/content-contact.php",
+		"oF": 0
+		},
 	"\/components\/page\/content-page.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2811,12 +2867,6 @@
 		"oAP": "\/sidebar.php",
 		"oF": 0
 		},
-	"\/single-mueble.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/single-mueble.php",
-		"oF": 0
-		},
 	"\/single.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2843,18 +2893,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-contacto.php",
-		"oF": 0
-		},
-	"\/template-empresa.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/template-empresa.php",
-		"oF": 0
-		},
-	"\/template-novedades.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/template-novedades.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-category.php": {
@@ -2909,12 +2947,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content.php",
-		"oF": 0
-		},
-	"\/template-portada.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/template-portada.php",
 		"oF": 0
 		}
 	},
