@@ -9,12 +9,18 @@
     &__item {
       flex: 1 200px;
       padding: $spacing_unit;
+      font-size: .8rem;
+      font-weight: 700;
       border-color: $color__gray;
       border-width: 1px;
       border-top-style: solid;
       border-right-style: solid;
 
+      img {
+        margin-bottom: $spacing_unit/2;
+      }
       a {
+        color: $color__darkgray;
         display: flex;
         flex-direction: column;
         align-items: center;

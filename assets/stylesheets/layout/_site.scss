@@ -8,12 +8,16 @@
     justify-content: space-between;
     padding-left: $spacing_unit;
     padding-right: $spacing_unit;
-    padding-bottom: $spacing_unit;
+    // padding-bottom: $spacing_unit;
   }
 
   &-main {}
 
-  &-content {}
+  &-content {
+    // h3 {
+    //   color: $color__brand1;
+    // }
+  }
 
   &-branding {
     display: flex;
