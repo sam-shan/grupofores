@@ -160,6 +160,8 @@ function todh_scripts() {
 
 	wp_enqueue_script( 'todh-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), '20151215', true );
 
+	wp_enqueue_script( 'todh-social', get_template_directory_uri() . '/assets/js/social.js', array(), '20151215', true );
+
 	wp_enqueue_script( 'todh-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -187,6 +189,16 @@ require get_template_directory() . '/inc/extras.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
+
+/**
+ * Social sharing.
+ */
+//require get_template_directory() . '/inc/social.php';
+
+/**
+ * Related posts
+ */
+require get_template_directory() . '/inc/related-posts.php';
 
 /**
  * Load Jetpack compatibility file.

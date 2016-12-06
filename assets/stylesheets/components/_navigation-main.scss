@@ -1,8 +1,12 @@
 .main-navigation {
 	width: 100%;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-around;
 	font-size: 1.3rem;
+	font-weight: 700;
+	background-color: $color__background-pre;
+	margin-top: $spacing_unit/2;
+	padding: $spacing_unit/3;
 
 	ul {
 		display: none;
@@ -12,7 +16,7 @@
 		padding-left: 0;
 
 		ul {
-			background-color: $color__white;
+			background-color: $color__background-pre;
 			padding: $spacing_unit;
 			font-size: initial;
 			float: left;
@@ -72,7 +76,7 @@
 	.current_page_ancestor > a,
 	.current-menu-ancestor > a {
 		color: $color__black;
-		background-color: rgba($color__brand1,.3);
+		border-bottom: 3px solid $color__black;
 	}
 }
 

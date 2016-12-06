@@ -6,7 +6,9 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: $spacing_unit;
+    padding-left: $spacing_unit;
+    padding-right: $spacing_unit;
+    padding-bottom: $spacing_unit;
   }
 
   &-main {}

@@ -1,4 +1,7 @@
-$font__main: sans-serif;
+
+$fname: "Pontano"; // Pontano Heebo
+@import url('https://fonts.googleapis.com/css?family=#{$fname}+Sans');
+$font__main: '#{$fname}', sans-serif;
 $font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 $font__pre: "Courier 10 Pitch", Courier, monospace;
 $font__line-height-body: 1.5;

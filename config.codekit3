@@ -278,6 +278,24 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/social-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/social-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/social.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/social-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/stylesheets\/components\/_languages.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2801,6 +2819,18 @@
 		"oAP": "\/inc\/jetpack.php",
 		"oF": 0
 		},
+	"\/inc\/related-posts.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/related-posts.php",
+		"oF": 0
+		},
+	"\/inc\/social.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/social.php",
+		"oF": 0
+		},
 	"\/inc\/template-tags.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2883,12 +2913,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sidebar.php",
-		"oF": 0
-		},
-	"\/single-jetpack-portfolio.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/single-jetpack-portfolio.php",
 		"oF": 0
 		},
 	"\/single.php": {
