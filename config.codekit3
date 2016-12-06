@@ -2759,6 +2759,12 @@
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
+	"\/features-mueble.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/features-mueble.php",
+		"oF": 0
+		},
 	"\/footer.php": {
 		"ft": 8192,
 		"oA": 2,
