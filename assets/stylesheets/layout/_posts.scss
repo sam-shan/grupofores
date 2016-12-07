@@ -21,3 +21,12 @@
 .entry-summary {
 	margin: 1.5em 0 0;
 }
+
+.entry-content {
+	.single-mueble & {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-end;
+	}
+}

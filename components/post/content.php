@@ -20,16 +20,6 @@
 			}
 		if ( 'post' === get_post_type() ) : ?>
 		<?php get_template_part( 'components/post/content', 'meta' ); ?>
-
-		<? elseif ( 'mueble' === get_post_type() ) : { ?>
-		<?php
-			if (qtrans_getLanguage() == 'en') {the_field('titulillo_pdf_ingles');}
-			elseif (qtrans_getLanguage() == 'es') {the_field('titulillo_pdf');}
-			else { echo 'es'; }
-		?>
-		<?php //get_template_part('sidebar-mueble'); ?>
-		<?php } ?>
-
 		<?php endif; ?>
 	</header>
 
@@ -43,7 +33,7 @@
 			</a>
 		<?php endif; ?>
 	<?php } endif; ?>
-	
+
 	<div class="entry-content">
 		<?php
 			the_content( sprintf(
@@ -57,6 +47,13 @@
 				'after'  => '</div>',
 			) );
 		?>
+
+		<? if ( 'mueble' === get_post_type() ) : { ?>
+			<?php get_template_part( 'features-mueble' ); ?>
+			<?php //get_template_part('sidebar-mueble'); ?>
+		<?php } ?>
+		<?php endif; ?>
+
 	</div>
 	<?php get_template_part( 'components/post/content', 'footer' ); ?>
 </article><!-- #post-## -->

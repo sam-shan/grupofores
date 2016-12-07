@@ -816,6 +816,19 @@ body {
 .entry-summary {
   margin: 1.5em 0 0; }
 
+.single-mueble .entry-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
 /*--------------------------------------------------------------
 ## Pages
 --------------------------------------------------------------*/
@@ -1055,6 +1068,18 @@ path.arkit {
 /*--------------------------------------------------------------
 # Components/product
 --------------------------------------------------------------*/
+.product--features {
+  padding-left: 0;
+  margin-right: 25px;
+  list-style: none;
+  max-width: 375px; }
+  .product--features__item {
+    padding-top: 8.3333333333px;
+    padding-bottom: 6.7567567568px;
+    border-top: 1px solid #eee; }
+    .product--features__item:last-child {
+      border-bottom: 1px solid #eee; }
+
 .product--list {
   display: -webkit-box;
   display: -ms-flexbox;

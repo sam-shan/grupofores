@@ -55,6 +55,7 @@ function create_post_type()
           'add_new_item' => __('Add New Custom Post', 'mueble'),
           'edit' => __('Edit', 'mueble'),
           'edit_item' => __('Edit Custom Post', 'mueble'),
+          'show_in_rest'       => true, // en teoría visible en /wp-json/wp/v2/mueble
           'new_item' => __('New Custom Post', 'mueble'),
           'view' => __('View Custom Post', 'mueble'),
           'view_item' => __('View Custom Post', 'mueble'),

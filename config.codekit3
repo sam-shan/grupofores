@@ -2843,6 +2843,12 @@
 		"oAP": "\/inc\/template-tags.php",
 		"oF": 0
 		},
+	"\/inc\/theme-custom.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/theme-custom.php",
+		"oF": 0
+		},
 	"\/inc\/wpcom.php": {
 		"ft": 8192,
 		"oA": 2,

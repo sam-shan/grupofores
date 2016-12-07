@@ -1,4 +1,19 @@
 .product {
+  &--features {
+    // background-color: red;
+    padding-left: 0;
+    margin-right: $spacing_unit;
+    list-style: none;
+    max-width: 375px;
+    &__item {
+      padding-top: $spacing_unit/3;
+      padding-bottom: $spacing_unit/3.7;
+      border-top: 1px solid $color__background-pre;
+      &:last-child {
+        border-bottom: 1px solid $color__background-pre;
+      }
+    }
+  }
   &--list {
     display: flex;
     flex-wrap: wrap;

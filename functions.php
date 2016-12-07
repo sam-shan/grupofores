@@ -191,6 +191,11 @@ require get_template_directory() . '/inc/extras.php';
 require get_template_directory() . '/inc/customizer.php';
 
 /**
+ * Theme customization.
+ */
+require get_template_directory() . '/inc/theme-custom.php';
+
+/**
  * Social sharing.
  */
 //require get_template_directory() . '/inc/social.php';

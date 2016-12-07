@@ -23,7 +23,7 @@ get_header(); ?>
 		?>
 
 		<?php if ( 'mueble' === get_post_type() ) : ?>
-			<?php get_template_part( 'features-mueble' ); ?>
+			<?php //get_template_part( 'features-mueble' ); ?>
 			<?php get_template_part( 'sidebar-mueble' ); ?>
 		<?php endif; ?>
 
