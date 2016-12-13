@@ -11,7 +11,29 @@
     // padding-bottom: $spacing_unit;
   }
 
-  &-main {}
+  &-sidebar {
+    flex: 0 200px;
+    margin-right: $spacing_unit;
+    margin-left: $spacing_unit;
+    margin-top: $spacing_unit;
+    margin-bottom: $spacing_unit*2;
+    min-width: 300px;
+    &__title {
+      font-size: .8rem;
+      margin-top: $spacing_unit/2;
+      margin-bottom: $spacing_unit/2;
+    }
+  }
+
+  &__mueble {
+    flex: 1 500px;
+  }
+
+  &-main {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
 
   &-content {
     // h3 {

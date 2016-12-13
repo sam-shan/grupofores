@@ -1,7 +1,9 @@
 <!-- sidebar -->
-<aside class="sidebar" role="complementary">
+<aside class="site-sidebar" role="complementary">
 
-	<h5><?php echo get_the_term_list( $post->ID, 'category', '', ', ', '' ); ?></h5>
+	<h5 class="site-sidebar__title">
+		<?php echo get_the_term_list( $post->ID, 'category', '', ', ', '' ); ?>
+	</h5>
 
 	<!-- begin custom related loop, isa -->
 
@@ -28,13 +30,12 @@
 	  // loop over query
 	  if ($related_items->have_posts()) :
 
-	  echo '<div class="jcarousel">
-	  <ul class="product--list">';
+	  echo '<ul class="slider  slider--mueble">';
 	  while ( $related_items->have_posts() ) : $related_items->the_post();
 	?>
 
-  <li class="product--list__item">
-		<a class="btn btn-default" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+  <li class="slider--mueble__item">
+		<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
     <?php if ( has_post_thumbnail()) : ?>
 			<?php the_post_thumbnail( 'galeria' ); ?>
 		<?php endif; ?>
@@ -48,53 +49,47 @@ endif;
 // Reset Post Data
 wp_reset_postdata();
 ?>
-	<!-- Prev/next controls -->
-	<a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><span class="el-icon-chevron-left"></span></a>
-	<a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><span class="el-icon-chevron-right"></span></a>
 
 
 		<?php if(in_array('blancobrillo', get_field('muestra') )): ?>
 		<?php query_posts( array( 'post_type' => 'mueble', 'category_name' => '', 'filtros' => 'blanco-brillo', 'posts_per_page' => 50 )); ?>
 
-		<h5>Blanco Brillo</h5>
+		<h5 class="site-sidebar__title">Blanco Brillo</h5>
 		<?php endif; ?>
 
 		<?php if(in_array('wengue', get_field('muestra') )): ?>
 		<?php query_posts( array( 'post_type' => 'mueble', 'category_name' => '', 'filtros' => 'wengue-2', 'posts_per_page' => 50 )); ?>
 
-		<h5>Wengu&eacute;</h5>
+		<h5 class="site-sidebar__title">Wengu&eacute;</h5>
 		<?php endif; ?>
 
 		<?php if(in_array('grisceniza', get_field('muestra') )): ?>
 		<?php query_posts( array( 'post_type' => 'mueble', 'category_name' => '', 'filtros' => 'gris-ceniza', 'posts_per_page' => 50 )); ?>
-		<h5>Gris Ceniza</h5>
+		<h5 class="site-sidebar__title">Gris Ceniza</h5>
 		<?php endif; ?>
 
 		<?php if(in_array('castano', get_field('muestra') )): ?>
 		<?php query_posts( array( 'post_type' => 'mueble', 'category_name' => '', 'filtros' => 'castano2', 'posts_per_page' => 50 )); ?>
-		<h5>Casta&ntilde;o</h5>
+		<h5 class="site-sidebar__title">Casta&ntilde;o</h5>
 		<?php endif; ?>
 
 		<?php if(in_array('negrobrillo', get_field('muestra') )): ?>
 		<?php query_posts( array( 'post_type' => 'mueble', 'category_name' => '', 'filtros' => 'negro-brillo', 'posts_per_page' => 50 )); ?>
 
-		<h5>Negro Brillo</h5>
+		<h5 class="site-sidebar__title">Negro Brillo</h5>
 		<?php endif; ?>
 
 		<?php if(in_array('nuez', get_field('muestra') )): ?>
 		<?php query_posts( array( 'post_type' => 'mueble', 'category_name' => '', 'filtros' => 'nuez', 'posts_per_page' => 50 )); ?>
 
-		<h5>Nuez</h5>
+		<h5 class="site-sidebar__title">Nuez</h5>
 		<?php endif; ?>
 
 
-
-		<div class="jcarousel">
-
-		<ul class="product--list">
+		<ul class="slider--mueble  slider">
     	<?php while (have_posts()) : the_post(); ?>
 
-        <li class="product--list__item">
+        <li class="slider--mueble__item">
 					<a class="btn btn-default" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 
 					<?php if ( has_post_thumbnail()) : ?><?php the_post_thumbnail( 'galeria' ); ?><?php endif; ?>
@@ -103,17 +98,14 @@ wp_reset_postdata();
 				</li>
 
 			<?php endwhile; ?>
-		</ul><!-- #mycarousel2 -->
+		</ul>
 
 		<?php wp_reset_query(); ?>
-		<!-- Prev/next controls -->
-    <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><span class="el-icon-chevron-left"></span></a>
-    <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><span class="el-icon-chevron-right"></span></a>
-	</div><!-- .carruselpeque -->
+
 	</section><!-- .grid-container -->
 
 
-		<h5>Colecciones</h5>
+		<h5 class="site-sidebar__title">Colecciones</h5>
 
 		<div class="coleccions">
 
@@ -176,7 +168,7 @@ wp_reset_postdata();
 
 	// loop over query
 	if ($related_items->have_posts()) :
-	echo '<ul>';
+	echo '<ul class="slider">';
 	while ( $related_items->have_posts() ) : $related_items->the_post();
 	?>
 
@@ -228,7 +220,7 @@ wp_reset_postdata();
 	  // loop over query
 	  if ($related_items->have_posts()) :
 	  echo '<div class="carruselpeque">
-	  <ul id="mycarousel2" class="jcarousel-skin-tango">';
+	  <ul class="slider">';
 	  while ( $related_items->have_posts() ) : $related_items->the_post();
 	  ?>
     <li><a href="<?php the_permalink(); ?>"

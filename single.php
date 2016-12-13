@@ -17,7 +17,9 @@ get_header(); ?>
 
 			get_template_part( 'components/post/content', get_post_format() );
 
-			the_post_navigation();
+			if ( 'post' === get_post_type() ) :
+				the_post_navigation();
+			endif;
 
 		endwhile; // End of the loop.
 		?>

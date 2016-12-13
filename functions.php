@@ -158,9 +158,17 @@ add_action( 'widgets_init', 'todh_widgets_init' );
 function todh_scripts() {
 	wp_enqueue_style( 'todh-style', get_stylesheet_uri() );
 
+	// wp_enqueue_style( 'slickcss', get_stylesheet_directory_uri() . '/stylesheets/slick.css', '1.6.0', 'all');
+
 	wp_enqueue_script( 'todh-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'todh-social', get_template_directory_uri() . '/assets/js/social.js', array(), '20151215', true );
+
+	wp_enqueue_script( 'todh-effects', get_template_directory_uri() . '/assets/js/effects-min.js', array(), '20151215', true );
+
+	wp_enqueue_script( 'todh-slick', get_template_directory_uri() . '/assets/js/slick.min.js', array(), '20151215', true );
+
+	wp_enqueue_script( 'todh-sliders', get_template_directory_uri() . '/assets/js/slider-min.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'todh-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array(), '20151215', true );
 

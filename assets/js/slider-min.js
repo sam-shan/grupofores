@@ -1,0 +1,1 @@
+"use strict";!function($){$(".slider").slick({infinite:!0,responsive:[{breakpoint:1024,settings:{infinite:!0}},{breakpoint:600,settings:{}},{breakpoint:300,settings:"unslick"}]})}(jQuery);
